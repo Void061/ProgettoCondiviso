@@ -646,8 +646,8 @@ body {
 
   .MuiDrawer-paperAnchorLeft{
     display: block;
-    background: var(--colore-sfondo);
-    color: white;
+    background: var(--colore-sfondo) !important;
+    color: white !important;
     
   }
 .nav{display: none !important}
