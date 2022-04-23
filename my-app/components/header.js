@@ -56,17 +56,19 @@ export default function Header(){
         <div className="header">
             
             <div className="brand">
-                <img src="logo.png" alt="brand" />
+                <img src="/images/logo.png" alt="brand" />
             </div>
 
             <ul className="nav">
-                <li>Home</li>
-                <li>Page2</li>
-                <li>Page3</li>
+                <li>Ecosystem</li>
+                <li>Comics</li>
+                <li>How to buy</li>
+                <li>Roadmap</li>
+                <li>Faq</li>
             </ul>
 
-            <div className="extra">
-                <button>Extra</button>
+            <div>
+                <button className="btn-1">BUY NOW</button>
             </div>
 
 

@@ -47,7 +47,8 @@ export default function Welcome(){
     return(
         <div className="container-welcome">
             <p className="title">Title</p>
-            <p className="text-main">Lorem ipsum dolor sit amet</p>
+            <p className="text-main">Welcome to Spacelon X, a community driven token. Learn the true story of the colonization of
+Mars and how Spacelon X helped to save the world.</p>
 
             <div className="features">
 
