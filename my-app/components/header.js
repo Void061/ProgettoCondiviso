@@ -14,7 +14,30 @@ import { Fragment } from 'react';
 import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
+import { useEffect } from 'react';
 export default function Header(){
+/* CONTROLLO SCROLL */
+const [scrollY, setScrollY] = useState(0);
+
+useEffect(() => {
+  const handleScroll = () => {
+    setScrollY(window.scrollY);
+    
+  };
+
+
+  handleScroll();
+  window.addEventListener("scroll", handleScroll);
+  
+return () => {
+  
+window.removeEventListener("scroll", handleScroll);
+
+};
+
+
+}, []);
+/**** */
 
     const [state, setState] = useState({
         top: false,
@@ -53,7 +76,7 @@ export default function Header(){
         </Box>
       );
     return(
-        <div className="header">
+        <div className={scrollY > 0 ? "header header-scrollato" : "header"}>
             
             <div className="brand">
                 <img src="/images/logo.png" alt="brand" />
