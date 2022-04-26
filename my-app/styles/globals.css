@@ -47,12 +47,12 @@ body {
   width: 100%;
   flex-direction: row;
   background: transparent;
-  height: 65px;
+  padding: 15px 0;
   align-items: center;
   justify-content: space-evenly;
 }
 
-.header-scrollato{
+.header-scrolled{
   z-index: 2;
   background: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -71,6 +71,7 @@ body {
   flex-direction: row;
   list-style-type: none;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .header .nav li:hover {
@@ -163,7 +164,7 @@ body {
   text-align: center;
   font-size: 15px;
   border-radius: 25px;
-  padding: 1em 5em;
+  padding: 1em 3em;
   background: transparent;
   border: 2px solid white;
   cursor: Pointer;
@@ -201,6 +202,11 @@ body {
 
 .active-circle {
   background-color: var(--colore-titoli);
+}
+
+.splide {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .splide__pagination__page {
@@ -269,6 +275,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items:center;
 
 }
 
@@ -406,12 +413,18 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  max-width: 1140px;
+  margin: 0 auto 200px;
   align-items: center;
   margin-bottom: 200px;
 }
 
 .container-faq .text-main {
   margin: 0;
+}
+
+.title-accordition {
+  width: 100%;
 }
 
 .title-accordition {
@@ -515,10 +528,10 @@ body {
 
 .text-secondary {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   color: white;
   font-weight: 800;
-  font-size: 1.2em;
+  font-size: 1.3em;
   text-align: left;
   max-width: 500px;
 }

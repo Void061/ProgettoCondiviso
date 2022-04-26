@@ -43,35 +43,38 @@ export default function Roadmap(){
 
             <div className="roadmap">
                 <div onClick={() => ManageMaps('map1')} className={map1 ? "map map-active" : "map"}>
-                    <p className="text-secondary">Titolo</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur </p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur</p>
-                    <p className="text-normal last">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p className="text-secondary">PHASE 1</p>
+                    <p className="text-normal">Website development</p>
+                    <p className="text-normal">Setup Social Media</p>
+                    <p className="text-normal">Smart contract development</p>
+                    <p className="text-normal">KYC & AUDIT</p>
+                    <p className="text-normal last">TIME SQUARE BILLBOARD</p>
                 </div>
               
                 <div onClick={() => ManageMaps('map2')} className={map2 ? "map map-active" : "map"}>
-                    <p className="text-secondary">Titolo</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur </p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur</p>
-                    <p className="text-normal last">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p className="text-secondary">PHASE 2</p>
+                    <p className="text-normal">Launch on PancakeSwap</p>
+                    <p className="text-normal">AMA’s</p>
+                    <p className="text-normal">Coingecko</p>
+                    <p className="text-normal">CMC</p>
+                    <p className="text-normal last">Official merchandise store</p>
                 </div>
 
                 <div onClick={() => ManageMaps('map3')} className={map3 ? "map map-active" : "map"}>
-                    <p className="text-secondary">Titolo</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur </p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur</p>
-                    <p className="text-normal last">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p className="text-secondary">PHASE 3</p>
+                    <p className="text-normal">Airdrop event </p>
+                    <p className="text-normal">CEX LISTING </p>
+                    <p className="text-normal">Influencer marketing </p>
+                    <p className="text-normal last">Start of SPX ecosystem development</p>
                 </div>
 
                 <div onClick={() => ManageMaps('map4')} className={map4 ? "map map-active" : "map"}>
-                    <p className="text-secondary">Titolo</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur </p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetur</p>
-                    <p className="text-normal last">Lorem ipsum dolor sit amet, consectetur</p>
+                    <p className="text-secondary">PHASE 4</p>
+                    <p className="text-normal">Spacelon DEX </p>
+                    <p className="text-normal">Spacelon Mask </p>
+                    <p className="text-normal">SPX Financial Academy</p>
+                    <p className="text-normal">Charity</p>
+                    <p className="text-normal last">Wallet and Dex Certik</p>
                 </div>
                 
             </div>

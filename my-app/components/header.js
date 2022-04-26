@@ -76,7 +76,7 @@ window.removeEventListener("scroll", handleScroll);
         </Box>
       );
     return(
-        <div className={scrollY > 0 ? "header header-scrollato" : "header"}>
+        <div className={scrollY > 0 ? "header header-scrolled" : "header"}>
             
             <div className="brand">
                 <img src="/images/logo.png" alt="brand" />

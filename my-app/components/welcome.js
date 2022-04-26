@@ -46,33 +46,27 @@ export default function Welcome(){
 
     return(
         <div className="container-welcome">
-            <p className="title">Title</p>
             <p className="text-main">Welcome to Spacelon X, a community driven token. Learn the true story of the colonization of
 Mars and how Spacelon X helped to save the world.</p>
 
+            <p className="title">ECOSYSTEM</p>
             <div className="features">
 
             <div onClick={() => setSlider(1)} className={current_tab == 1 ? "feature active" : "feature"}>
                     <div className={current_tab == 1 ? "active-circle circle" : "circle" }></div>
-                    <p className={current_tab == 1 ? "active-text" : null}>SOLUTIONS</p>
+                    <p className={current_tab == 1 ? "active-text" : null}>SPACELON DEX</p>
                 </div>
 
                 <div onClick={() => setSlider(2)} className={current_tab == 2 ? "feature active" : "feature"}>
                     <div className={current_tab == 2 ? "active-circle circle" : "circle" }></div>
-                    <p className={current_tab == 2 ? "active-text" : null}>SOLUTIONS</p>
+                    <p className={current_tab == 2 ? "active-text" : null}>SPACELON MASK</p>
                 </div>
 
                 <div onClick={() => setSlider(3)} className={current_tab == 3 ? "feature active" : "feature"}>
                     <div className={current_tab == 3 ? "active-circle circle" : "circle" }></div>
-                    <p className={current_tab == 3 ? "active-text" : null}>SOLUTIONS</p>
+                    <p className={current_tab == 3 ? "active-text" : null}>SPX FINANCIAL ACADEMY</p>
                 </div>
 
-
-         
-                
-
-                
-               
                 
             </div>
 
@@ -82,9 +76,9 @@ Mars and how Spacelon X helped to save the world.</p>
 
                 
   <SplideTrack>
-    <SplideSlide>CONTENUTO SLIDE 1</SplideSlide>
-    <SplideSlide>CONTENUTO SLIDE 2</SplideSlide>
-    <SplideSlide>CONTENUTO SLIDE 3</SplideSlide>
+    <SplideSlide><h3>Safe and decentralized where it will be possible to trade $SPX, tokens and coins. Read more</h3></SplideSlide>
+    <SplideSlide><h3>A safe and smart wallet that will allow the community to store their digital assets like $SPX</h3></SplideSlide>
+    <SplideSlide><h3>A training academy, accessible to all $SPX holders.</h3></SplideSlide>
   </SplideTrack>
 
   <div className="splide__arrows">

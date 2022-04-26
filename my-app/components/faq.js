@@ -20,9 +20,8 @@ export default function Faq(){
 
     return(
         <div className="container-faq">
-            <p className="title">Faq</p>
-            <p className="text-main">Any questions?</p>
-            <p className="text-main">Read faQ or text us</p>
+            <p className="title"></p>
+            <p className="text-main">FAQ</p>
 
             {/* ACCORDITIONS */}
             <Accordion className="title-accordition">
@@ -32,12 +31,11 @@ export default function Faq(){
           id="panel1a-header"
           
         >
-          <Typography className="text-accordition">Accordion 1</Typography>
+          <Typography className="text-accordition">What is the slippage ?</Typography>
         </AccordionSummary>
         <AccordionDetails className="accordition-details">
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Buy and Sell 10%
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -50,12 +48,12 @@ export default function Faq(){
           id="panel1a-header"
           
         >
-          <Typography className="text-accordition">Accordion 2</Typography>
+          <Typography className="text-accordition">How holders dividends work</Typography>
         </AccordionSummary>
         <AccordionDetails className="accordition-details">
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Each holders will automatically receive in their wallet, WBNB, simply by adding the following
+contract : 0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -69,12 +67,11 @@ export default function Faq(){
           id="panel1a-header"
           
         >
-          <Typography className="text-accordition">Accordion 3</Typography>
+          <Typography className="text-accordition">What are the fees?</Typography>
         </AccordionSummary>
         <AccordionDetails className="accordition-details">
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <Typography>Every transaction has a 10% fee with 2% going to the holders, 4% going to Pancakeswap
+liquidity pool and 4% going to marketing wallet.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -88,12 +85,12 @@ export default function Faq(){
           id="panel1a-header"
           
         >
-          <Typography className="text-accordition">Accordion 4</Typography>
+          <Typography className="text-accordition">Will the Dev own tokens?</Typography>
         </AccordionSummary>
         <AccordionDetails className="accordition-details">
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          Yes, the dev will have a minimum part of tokens that will be used for future burns and
+listings on CEXs. Everything else will be locked.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -107,12 +104,11 @@ export default function Faq(){
           id="panel1a-header"
           
         >
-          <Typography className="text-accordition">Accordion 5</Typography>
+          <Typography className="text-accordition">Where can I contact you for a collaboration?</Typography>
         </AccordionSummary>
         <AccordionDetails className="accordition-details">
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+          To collaborate with us or fill a job role in our team, contact us at this address : info@spacelonx.io
           </Typography>
         </AccordionDetails>
       </Accordion>
