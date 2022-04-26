@@ -154,6 +154,7 @@ body {
 .feature {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) .6s;
   width: 33.3333333333%;
+  font-size: 0.8em;
   flex: 0 0 auto;
   color: white;
   font-weight: 500;
@@ -162,7 +163,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 15px;
+  min-width: 240px;
   border-radius: 25px;
   padding: 1em 3em;
   background: transparent;
@@ -334,6 +335,8 @@ body {
 }
 
 .map {
+  min-width: 350px;
+  max-width: 350px;
   background: transparent;
   border: 2px solid var(--colore-titoli);
   border-radius: 25px;
@@ -619,9 +622,12 @@ body {
   }
 
   .feature {
+    min-width: auto;
     flex: unset;
     padding: 10px;
     padding-top: 20px;
+    min-height: 140px;
+    
 
   }
 
@@ -669,6 +675,7 @@ body {
 
 
 @media only screen and (max-width: 700px) {
+  .splide__list{text-align: center;}
   .glide {
     width: 100% !important;
     text-align: center;
@@ -743,6 +750,24 @@ body {
 
   .virgolette-2 {
     display: none;
+  }
+
+  .feature{
+    min-height: 135px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+
+  .feature .circle{
+    width: 30px;
+    height: 30px;
+  }
+
+  .splide{
+    max-width: 300px;
   }
 }
 
