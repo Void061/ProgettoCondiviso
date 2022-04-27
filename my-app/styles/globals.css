@@ -210,9 +210,7 @@ body {
   margin: 0 auto;
 }
 
-.splide__pagination__page {
-  display: none !important;
-}
+
 
 .splide__slide {
 
@@ -516,7 +514,7 @@ body {
   background: var(--colore-titoli);
   border-radius: 20px;
   padding: 10px;
-  width: 120px;
+  min-width: 120px;
   color: white;
 }
 
@@ -580,12 +578,114 @@ body {
 
 
 
+/* STORY */
+.story-container .splide__pagination__page{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #fff;
+  opacity: 1;
+  margin: 8px;
+  transform: scale(1) !important;
+}
+
+.story-container .splide__pagination__page:hover{
+  background: #fff !important;
+}
+.story-container .splide__pagination{
+  bottom: -1px;
+}
+
+.story-container .splide__pagination__page.is-active{
+  background: #fff;
+}
+.story-container{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.header-story{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story-container .panels{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-container img{
+  height: 400px;
+  width: 280px;
+}
+
+.story-container .splide__arrow svg{fill: #fff;}
+
+.story-container .splide__arrow:hover:not(:disabled) svg{fill: #ffff;}
+.story-container .splide{
+  max-width: 400px;
+}
+
+
+.story-container .splide__arrow--prev{
+  top: unset;
+  bottom: -20px;
+}
+
+.story-container .splide__arrow--next{
+  top: unset;
+  bottom: -20px;
+}
+
+
+
+
+
+.story-container .panels .right-p{
+  width: 400px;
+  
+  
+}
+
+
+/*********/
+
 
 
 
 
 
 /* MEDIA QUERIES */
+
+@media only screen and (max-width: 900px){
+  .story-container .panels{
+    flex-direction: column;
+  }
+
+  .story-container .panels .right-p{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center !important;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .story-container .panels .text-normal{
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 900px) {
 
   .card .text-secondary {

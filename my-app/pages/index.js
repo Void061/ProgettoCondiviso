@@ -8,7 +8,7 @@ import Community from '../components/community'
 import Faq from '../components/faq'
 import Footer from '../components/footer'
 import Head from 'next/head'
-
+import Story from '../components/story'
 
 
 export default function Home() {
@@ -16,8 +16,8 @@ export default function Home() {
     <div>
 
      <Head>
-      <meta charset="UTF-8"/>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+      <meta charSet="UTF-8"/>
+      <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
   	  <meta name="description" content="" />
   	  <meta name="keywords" content=""/>
       <title>Titolo | Home</title>
@@ -33,6 +33,8 @@ export default function Home() {
       <Infos />
 
       <Video />
+
+      <Story />
 
       <Roadmap />
 
