@@ -1,7 +1,7 @@
 
 
-export default function community(){
-    return(
+export default function community() {
+    return (
         <div className="community-container">
 
             <div className="card">
@@ -10,9 +10,9 @@ export default function community(){
                 <p className="text-secondary">Lorem ipsum dolor sit amet, consectetur </p>
 
                 <div className="icons">
-                    <img src="icon.png" alt=""/>
-                    <img src="icon.png" alt=""/>
-                    <img src="icon.png" alt=""/>
+                   <a href="#"><img src="/images/social/fb.png" alt=""/></a>
+                    <a href="#"><img src="/images/social/tw.png" alt=""/></a>
+                    <a href="#"><img src="/images/social/tg.png" alt=""/></a>
                 </div>
             </div>
 
@@ -22,6 +22,6 @@ export default function community(){
             <p className="virgolette">&quot;</p>
            </div>
             
-        </div>
+        </div >
     )
 }

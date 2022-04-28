@@ -1,6 +1,4 @@
-
-
-export default function footer(){
+function footer2(){
     return(
         <div className="footer">
             <button>BUTTON</button>
@@ -29,6 +27,17 @@ export default function footer(){
            
 
 
+        </div>
+    )
+}
+
+
+
+export default function footer(){
+    return(
+        <div className="footer">
+            SpacelonX | 2022 <br />
+            info@spacelonx.com
         </div>
     )
 }

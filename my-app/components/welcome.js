@@ -72,7 +72,7 @@ Mars and how Spacelon X helped to save the world.</p>
 
             {/* CAROUSEL "drag":*/ }
             
-            <Splide ref={ sp } data-splide={ `{"drag": false}`} hasTrack={ false } aria-label="...">
+            <Splide ref={ sp } data-splide={ `{"pagination": false, "drag": false}`} hasTrack={ false } aria-label="...">
 
                 
   <SplideTrack>

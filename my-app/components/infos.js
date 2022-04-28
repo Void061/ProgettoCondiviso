@@ -25,7 +25,7 @@ amount. If the price falls, the stop-loss price remains unchanged. </p>
                 </div>
 
                 <div className="right-container">
-                    <img src="blank.png" alt="blank" />
+                    <img src="/images/dex.png" alt="blank" />
                 </div>
                 
             </div>
@@ -48,7 +48,7 @@ adjust gas prices in order to speed up the execution of transactions.
                 </div>
 
                 <div className="right-container">
-                    <img src="blank.png" alt="blank" />
+                    <img src="/images/wallet.png" alt="blank" />
                 </div>
             </div>
 
@@ -62,7 +62,7 @@ be present to deepen your knowledge and teach you the world of crypto step by st
                 </div>
                 
                 <div className="right-container">
-                    <img src="blank.png" alt="blank" />
+                    <img src="/images/academy.png" alt="blank" />
                 </div>
             </div>
 
