@@ -25,13 +25,7 @@ export default function Story(){
       aria-label="My Favorite Images"
     >
       <SplideSlide>
-        <img src="blank.png" alt="Image 1"/>
-      </SplideSlide>
-      <SplideSlide>
-        <img src="blank.png" alt="Image 2"/>
-      </SplideSlide>
-      <SplideSlide>
-        <img src="blank.png" alt="Image 3"/>
+        <img src="/images/comic.jpg" alt="Image 1"/>
       </SplideSlide>
 
     

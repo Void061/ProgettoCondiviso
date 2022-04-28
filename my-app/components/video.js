@@ -7,7 +7,7 @@ export default function video(){
             <p className="text-main">How to buy</p>
 
          <video controls>
-         <source src="https://www.youtube.com/watch?v=" type="video/mp4" />
+         <source src="/video/how-to-buy.mp4" type="video/mp4" />
          </video>
         </div>
     )
