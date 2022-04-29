@@ -2,9 +2,10 @@
 
 export default function video(){
     return (
-        <div className="video">
-            <p className="title">Title</p>
-            <p className="text-main">How to buy</p>
+        <div id="how-to-buy" className="video">
+            <p className="title">HOW TO BUY</p>
+            <p className="text-main mb-40">Discover how to buy our token
+</p>
 
          <video controls>
          <source src="/video/how-to-buy.mp4" type="video/mp4" />

@@ -4,11 +4,11 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 export default function Story(){
     return(
-        <div className="story-container">
+        <div id="comics" className="story-container">
 
             <div className="header-story">
                 <p className="title">COMIC STORY</p>
-                <p className="text-main">SpacelonX: the true story behind the new Mars world</p>
+                <p className="text-main mt-0">SpacelonX: <br /> the true story behind the new Mars world</p>
             </div>
 
             <div className="panels">
@@ -32,7 +32,7 @@ export default function Story(){
     </Splide>
                 </div>
                 <div className="right-p">
-                    <p className="text-main">SpacelonX comic #1</p>
+                    <p className="text-main text-left">SpacelonX comic #1</p>
                     <p className="text-normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                     sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit loortis
                     nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriuire dolor in hendrerit in vulputate velit

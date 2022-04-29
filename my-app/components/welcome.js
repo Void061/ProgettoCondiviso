@@ -45,7 +45,7 @@ export default function Welcome(){
     
 
     return(
-        <div className="container-welcome">
+        <div id="ecosystem" className="container-welcome">
             <p className="text-main">Welcome to Spacelon X, a community driven token. Learn the true story of the colonization of
 Mars and how Spacelon X helped to save the world.</p>
 
@@ -53,17 +53,23 @@ Mars and how Spacelon X helped to save the world.</p>
             <div className="features">
 
             <div onClick={() => setSlider(1)} className={current_tab == 1 ? "feature active" : "feature"}>
-                    <div className={current_tab == 1 ? "active-circle circle" : "circle" }></div>
+                    <div className={current_tab == 1 ? "active-circle circle" : "circle" }>
+                        <img src="/images/icon-dex.png" />
+                    </div>
                     <p className={current_tab == 1 ? "active-text" : null}>SPACELON DEX</p>
                 </div>
 
                 <div onClick={() => setSlider(2)} className={current_tab == 2 ? "feature active" : "feature"}>
-                    <div className={current_tab == 2 ? "active-circle circle" : "circle" }></div>
+                    <div className={current_tab == 2 ? "active-circle circle" : "circle" }>
+                    <img src="/images/icon-Mask.png" />
+                    </div>
                     <p className={current_tab == 2 ? "active-text" : null}>SPACELON MASK</p>
                 </div>
 
                 <div onClick={() => setSlider(3)} className={current_tab == 3 ? "feature active" : "feature"}>
-                    <div className={current_tab == 3 ? "active-circle circle" : "circle" }></div>
+                    <div className={current_tab == 3 ? "active-circle circle" : "circle" }>
+                    <img src="/images/icon-academy.png" />
+                    </div>
                     <p className={current_tab == 3 ? "active-text" : null}>SPX FINANCIAL ACADEMY</p>
                 </div>
 

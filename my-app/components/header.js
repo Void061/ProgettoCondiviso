@@ -83,11 +83,11 @@ window.removeEventListener("scroll", handleScroll);
             </div>
 
             <ul className="nav">
-                <li>Ecosystem</li>
-                <li>Comics</li>
-                <li>How to buy</li>
-                <li>Roadmap</li>
-                <li>Faq</li>
+                <li><a href="#ecosystem">Ecosystem</a></li>
+                <li><a href="#comics">Comics</a></li>
+                <li><a href="#how-to-buy">How to buy</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#faq">Faq</a></li>
             </ul>
 
             <div>

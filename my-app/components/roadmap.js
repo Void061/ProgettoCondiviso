@@ -35,7 +35,7 @@ export default function Roadmap(){
         }
     }
     return(
-        <div className="roadmap-container">
+        <div id="roadmap" className="roadmap-container">
             <p className="title">Roadmap</p>
             <p className="text-main">Get ready lorem ipsum</p>
             <p className="text-main">read our Roadmap</p>

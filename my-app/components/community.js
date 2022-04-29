@@ -5,9 +5,8 @@ export default function community() {
         <div className="community-container">
 
             <div className="card">
-                <p className="title">Title title title</p>
-                <p className="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                <p className="text-secondary">Lorem ipsum dolor sit amet, consectetur </p>
+                <p className="title">JOIN SPACELON X COMMUNITY</p>
+                <p className="text-secondary text-center">JOIN OUR COMMUNITY AND WE’LL GO TOGETHER TO THE MOON </p>
 
                 <div className="icons">
                    <a href="#"><img src="/images/social/fb.png" alt=""/></a>
@@ -16,12 +15,40 @@ export default function community() {
                 </div>
             </div>
 
-           <div className="container-relative">
-            <p className="text-secondary"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            <p className="virgolette-2">&quot;</p>
-            <p className="virgolette">&quot;</p>
+           <div className="container">
+               <div class="row">
+                   <div class="col-md-4">
+                   <div class="card-new">
+                       <a href="/documents/whitepaper.pdf">
+                           <img src="/images/document/whitepaper.png" />
+                           <div class="title-card">White Paper</div>
+                           <div class="button">DOWNLOAD</div>
+                           </a>
+                   </div>
+                   </div>
+                   <div class="col-md-4">
+                   <div class="card-new">
+                       <a href="/documents/whitepaper.pdf">
+                           <img src="/images/document/kyc.png" />
+                       <div class="title-card">KYC</div>
+                        <div class="button">DOWNLOAD</div>
+                   </a>
+                   </div>
+                   </div>
+                
+                   <div class="col-md-4">
+                       <div class="card-new">
+                           <a href="/documents/whitepaper.pdf">
+                            <img src="/images/document/audit.png" />
+                           <div class="title-card">Audit</div>
+                           <div class="button">DOWNLOAD</div>
+                           </a>
+                        </div>
+                   </div>
+                  
+               </div>
            </div>
             
-        </div >
+        </div>
     )
 }

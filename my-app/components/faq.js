@@ -19,9 +19,9 @@ export default function Faq(){
    
 
     return(
-        <div className="container-faq">
-            <p className="title"></p>
-            <p className="text-main">FAQ</p>
+        <div id="faq" className="container-faq">
+            <p className="title">FAQ</p>
+            <p className="text-main">Frequently Asked Questions</p>
 
             {/* ACCORDITIONS */}
             <Accordion className="title-accordition">
