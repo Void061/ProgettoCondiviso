@@ -62,7 +62,7 @@ window.removeEventListener("scroll", handleScroll);
           onKeyDown={toggleDrawer(anchor, false)}
         >
           <List>
-            {['Home', 'Page1', 'Page2'].map((text, index) => (
+            {['Ecosystem', 'Comics', 'How to buy', 'Roadmap', 'Faq'].map((text, index) => (
               <ListItem button key={text}>
                 <ListItemIcon>
                   {index % 2 === 0 ? <HomeIcon sx={{color: 'white'}}/> : <HomeIcon sx={{color: 'white'}}/>}
@@ -91,7 +91,7 @@ window.removeEventListener("scroll", handleScroll);
             </ul>
 
             <div>
-                <button className="btn-1">BUY NOW</button>
+                <button className="btn-1">UNICRYPT PRESALE</button>
             </div>
 
 

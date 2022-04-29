@@ -16,32 +16,32 @@ export default function community() {
             </div>
 
            <div className="container">
-               <div class="row">
-                   <div class="col-md-4">
-                   <div class="card-new">
+               <div className="row">
+                   <div className="col-md-4">
+                   <div classNames="card-new">
                        <a href="/documents/whitepaper.pdf">
                            <img src="/images/document/whitepaper.png" />
-                           <div class="title-card">White Paper</div>
-                           <div class="button">DOWNLOAD</div>
+                           <div className="title-card">White Paper</div>
+                           <div  className="button">DOWNLOAD</div>
                            </a>
                    </div>
                    </div>
-                   <div class="col-md-4">
-                   <div class="card-new">
+                   <div className="col-md-4">
+                   <div className="card-new">
                        <a href="/documents/whitepaper.pdf">
                            <img src="/images/document/kyc.png" />
-                       <div class="title-card">KYC</div>
-                        <div class="button">DOWNLOAD</div>
+                       <div  className="title-card">KYC</div>
+                        <div  className="button">DOWNLOAD</div>
                    </a>
                    </div>
                    </div>
                 
-                   <div class="col-md-4">
-                       <div class="card-new">
+                   <div  className="col-md-4">
+                       <div  className="card-new">
                            <a href="/documents/whitepaper.pdf">
                             <img src="/images/document/audit.png" />
-                           <div class="title-card">Audit</div>
-                           <div class="button">DOWNLOAD</div>
+                           <div  className="title-card">Audit</div>
+                           <div  className="button">DOWNLOAD</div>
                            </a>
                         </div>
                    </div>

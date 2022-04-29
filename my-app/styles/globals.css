@@ -405,7 +405,7 @@ a {
   align-items: center;
   width: 100%;
   background-image: var(--colore-roadmap);
-  padding: 120px;
+  padding: 120px 0;
   padding-bottom: 80px;
 }
 
