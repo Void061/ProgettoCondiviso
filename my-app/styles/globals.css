@@ -84,7 +84,7 @@ a {
   width: 45px;
   height: 45px;
   padding: 0;
-  margin-top: 5px;
+  margin: 5px 10px 0 0;
 }
 
 .header .nav {
@@ -137,8 +137,6 @@ a {
 /* PRESENTATION */
 .presentation {
   display: flex;
-
-
 }
 
 .presentation img {

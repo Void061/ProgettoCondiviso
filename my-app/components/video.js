@@ -7,8 +7,8 @@ export default function video(){
             <p className="text-main mb-40">Discover how to buy our token
 </p>
 
-         <video controls>
-         <source src="/video/how-to-buy.mp4" type="video/mp4" />
+         <video poster="/images/poster.jpg" controls>
+         <source src="/video/how-to-buy.mp4" type="video/mp4"  />
          </video>
         </div>
     )

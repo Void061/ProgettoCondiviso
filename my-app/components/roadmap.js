@@ -37,8 +37,7 @@ export default function Roadmap(){
     return(
         <div id="roadmap" className="roadmap-container">
             <p className="title">Roadmap</p>
-            <p className="text-main">Get ready lorem ipsum</p>
-            <p className="text-main">read our Roadmap</p>
+            <p className="text-main">Get ready, read our roadmap</p>
 
 
             <div className="roadmap">

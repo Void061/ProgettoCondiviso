@@ -18,7 +18,7 @@ export default function community() {
            <div className="container">
                <div className="row">
                    <div className="col-md-4">
-                   <div classNames="card-new">
+                   <div className="card-new">
                        <a href="/documents/whitepaper.pdf">
                            <img src="/images/document/whitepaper.png" />
                            <div className="title-card">White Paper</div>

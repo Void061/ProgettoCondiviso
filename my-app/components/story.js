@@ -33,10 +33,11 @@ export default function Story(){
                 </div>
                 <div className="right-p">
                     <p className="text-main text-left">SpacelonX comic #1</p>
-                    <p className="text-normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit loortis
-                    nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriuire dolor in hendrerit in vulputate velit
-                    esse molestie consequat, vel illum</p>
+                    <p className="text-normal">Read the true story of the colonization of Mars and how Spacelon X helped save the world. <br /> The truth is about to be revealed, nothing will ever be the same again. <br /> <br />
+
+WARNING! <br /> <br />
+
+not suitable for the faint of heart.</p>
                 </div>
             </div>
 
