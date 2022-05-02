@@ -15,7 +15,6 @@ import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import { useEffect } from 'react';
-import { useRouter } from 'next/router'
 import { Link } from '@mui/material';
 
 export default function Header(){
