@@ -15,10 +15,16 @@ import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
 import { useEffect } from 'react';
+import { useRouter } from 'next/router'
+import { Link } from '@mui/material';
+
 export default function Header(){
+
+  
+
 /* CONTROLLO SCROLL */
 const [scrollY, setScrollY] = useState(0);
-
+const router = useRouter();
 useEffect(() => {
   const handleScroll = () => {
     setScrollY(window.scrollY);
@@ -53,7 +59,7 @@ window.removeEventListener("scroll", handleScroll);
     
         setState({ ...state, [anchor]: open });
       };
-    
+      
       const list = (anchor) => (
         <Box
           sx={{  width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
@@ -62,14 +68,64 @@ window.removeEventListener("scroll", handleScroll);
           onKeyDown={toggleDrawer(anchor, false)}
         >
           <List>
-            {['Ecosystem', 'Comics', 'How to buy', 'Roadmap', 'Faq'].map((text, index) => (
-              <ListItem button key={text}>
+
+          <Link className="links-nav" href="#ecosystem">
+            <ListItem button >
                 <ListItemIcon>
-                  {index % 2 === 0 ? <HomeIcon sx={{color: 'white'}}/> : <HomeIcon sx={{color: 'white'}}/>}
+                  <HomeIcon sx={{color: 'white'}}/>
                 </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItem>
-            ))}
+
+                <ListItemText primary="Ecosystem"/>
+                
+            </ListItem>
+            </Link>
+
+
+             <Link className="links-nav" href="#comics">
+            <ListItem button >
+                <ListItemIcon>
+                  <HomeIcon sx={{color: 'white'}}/>
+                </ListItemIcon>
+
+                <ListItemText primary="Comics"/>
+                
+            </ListItem>
+            </Link>
+
+
+            <Link className="links-nav" href="#how-to-buy">
+            <ListItem button >
+                <ListItemIcon>
+                  <HomeIcon sx={{color: 'white'}}/>
+                </ListItemIcon>
+
+                <ListItemText primary="How to buy"/>
+                
+            </ListItem>
+            </Link>
+
+            <Link className="links-nav" href="#roadmap">
+            <ListItem button >
+                <ListItemIcon>
+                  <HomeIcon sx={{color: 'white'}}/>
+                </ListItemIcon>
+
+                <ListItemText primary="Roadmap"/>
+                
+            </ListItem>
+            </Link>
+
+            <Link className="links-nav" href="#faq">
+            <ListItem button >
+                <ListItemIcon>
+                  <HomeIcon sx={{color: 'white'}}/>
+                </ListItemIcon>
+
+                <ListItemText primary="Faq"/>
+                
+            </ListItem>
+            </Link>
+            
           </List>
           <Divider />
          

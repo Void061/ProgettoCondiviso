@@ -17,6 +17,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   height: 100%;
   width: 100%;
   padding: 0;
@@ -61,7 +62,7 @@ a {
   margin-top: 0;
 }
 /* HEADER */
-
+.links-nav{color: white; text-decoration: none;}
 .header {
   display: flex;
   position: fixed;
@@ -411,8 +412,11 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /*
   position: absolute;
   top: -150px;
+  */
+  margin-top: -200px;
   background-image: var(--colore-card);
   border-radius: 10px;
   padding: 15px;
@@ -430,6 +434,7 @@ a {
   padding: 2em;
   margin: 1em;
   border-radius: 25px;
+ 
 }
 
 
@@ -732,6 +737,8 @@ a {
   .story-container .panels{
     flex-direction: column;
   }
+
+ 
 
   .story-container .panels .right-p{
     width: auto;
@@ -5931,4 +5938,27 @@ a {
    .d-print-none {
      display: none !important;
    }
+ }
+
+
+
+ @media only screen and (max-width: 880px){
+
+  
+  .header .nav li a{
+    padding: 15px;
+    font-size: 0.8em;
+  }
+
+  .header .brand img{
+    width: 35px;
+    height: 35px;
+    }
+    
+    
+    .header .btn-1{
+    font-size: 0.8em;
+    padding: 0.35rem 0.8rem;
+    
+    }
  }
