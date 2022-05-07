@@ -23,7 +23,6 @@ export default function Header(){
 
 /* CONTROLLO SCROLL */
 const [scrollY, setScrollY] = useState(0);
-const router = useRouter();
 useEffect(() => {
   const handleScroll = () => {
     setScrollY(window.scrollY);
@@ -134,7 +133,7 @@ window.removeEventListener("scroll", handleScroll);
         <div className={scrollY > 0 ? "header header-scrolled" : "header"}>
             
             <div className="brand">
-                <img src="/images/logo.png" alt="brand" />
+            <Link href="/"> <img src="/images/logo.png" alt="brand" /></Link>
             </div>
 
             <ul className="nav">
@@ -146,7 +145,7 @@ window.removeEventListener("scroll", handleScroll);
             </ul>
 
             <div>
-                <button className="btn-1">UNICRYPT PRESALE</button>
+                <Link href="https://bscscan.com/token/0x8C3B58D50886dE1Da74CDd00aFac59dA0d4a2A2a"><button className="btn-1">BSC SCAN</button></Link>
             </div>
 
 

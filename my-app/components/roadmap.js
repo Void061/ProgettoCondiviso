@@ -47,7 +47,8 @@ export default function Roadmap(){
                     <p className="text-normal">Setup Social Media</p>
                     <p className="text-normal">Smart contract development</p>
                     <p className="text-normal">KYC & AUDIT</p>
-                    <p className="text-normal last">TIME SQUARE BILLBOARD</p>
+                    <p className="text-normal">Time Square Billboard</p>
+                    <p className="text-normal last">Presale on Unicrypt</p>
                 </div>
               
                 <div onClick={() => ManageMaps('map2')} className={map2 ? "map map-active" : "map"}>

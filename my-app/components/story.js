@@ -37,7 +37,7 @@ export default function Story(){
 
 WARNING! <br /> <br />
 
-not suitable for the faint of heart.</p>
+Not suitable for the faint of heart.</p>
                 </div>
             </div>
 
