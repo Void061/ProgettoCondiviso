@@ -205,6 +205,11 @@ a {
 }
 
 .features .active {
+  background: white;
+}
+
+.features .active > .circle{
+  background-color: var(--colore-titoli);
 }
 
 .circle {
