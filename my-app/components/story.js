@@ -27,6 +27,7 @@ export default function Story(){
       <SplideSlide>
         <img src="/images/comic.jpg" alt="Image 1"/>
       </SplideSlide>
+      
 
     
     </Splide>
