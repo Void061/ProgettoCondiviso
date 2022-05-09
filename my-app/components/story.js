@@ -25,7 +25,19 @@ export default function Story(){
       aria-label="My Favorite Images"
     >
       <SplideSlide>
-        <img src="/images/comic.jpg" alt="Image 1"/>
+        <img src="/images/comics/01/poster.jpg" alt="Image 1"/>
+      </SplideSlide> 
+      <SplideSlide>
+        <img src="/images/comics/01/01.jpg" alt="Image 1"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="/images/comics/01/02.jpg" alt="Image 1"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="/images/comics/01/03.jpg" alt="Image 1"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="/images/comics/01/04.jpg" alt="Image 1"/>
       </SplideSlide>
       
 
