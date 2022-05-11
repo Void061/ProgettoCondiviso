@@ -22,13 +22,23 @@ export default function Story(){
         rewind: true,
         gap   : '1rem',
       } }
-      aria-label="My Favorite Images"
+      aria-label="ComicsSpacelonX"
     >
       <SplideSlide>
-        <img src="/images/comic.jpg" alt="Image 1"/>
+        <img src="/images/comics/01/entry.jpg" alt="Image0"/>
       </SplideSlide>
-
-    
+      <SplideSlide>
+        <img src="/images/comics/01/01.jpg" alt="Image 1"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="/images/comics/01/02.jpg" alt="Image2"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="/images/comics/01/03.jpg" alt="Image3"/>
+      </SplideSlide>
+      <SplideSlide>
+        <img src="/images/comics/01/04.jpg" alt="Image4"/>
+      </SplideSlide>
     </Splide>
                 </div>
                 <div className="right-p">

@@ -21,7 +21,7 @@ export default function Header(){
 
   
 
-/* CONTROLLO SCROLL */
+/* CONTROL SCROLL */
 const [scrollY, setScrollY] = useState(0);
 useEffect(() => {
   const handleScroll = () => {

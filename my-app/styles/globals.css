@@ -69,6 +69,7 @@ a {
 .header {
   display: flex;
   position: fixed;
+  z-index: 99;
   width: 100%;
   flex-direction: row;
   background: transparent;
@@ -78,7 +79,6 @@ a {
 }
 
 .header-scrolled{
-  z-index: 2;
   background: #000000d6;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
