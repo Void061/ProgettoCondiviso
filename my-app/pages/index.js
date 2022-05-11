@@ -9,6 +9,7 @@ import Faq from '../components/faq'
 import Footer from '../components/footer'
 import Head from 'next/head'
 import Story from '../components/story'
+import Stars from '../components/stars'
 
 
 export default function Home() {
@@ -22,8 +23,7 @@ export default function Home() {
   	  <meta name="keywords" content=""/>
       <title>SpacelonX</title>
      </Head>
-     
-  
+      <Stars />
       <Header />
 
       <Presentation />

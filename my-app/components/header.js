@@ -144,7 +144,7 @@ window.removeEventListener("scroll", handleScroll);
                 <li><a href="#faq">Faq</a></li>
             </ul>
 
-            <div>
+            <div className='d-none d-md-flex'>
                 <Link href="https://bscscan.com/token/0x8C3B58D50886dE1Da74CDd00aFac59dA0d4a2A2a"><button className="btn-1">BSC SCAN</button></Link>
             </div>
 

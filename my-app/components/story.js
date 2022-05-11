@@ -25,20 +25,23 @@ export default function Story(){
       aria-label="ComicsSpacelonX"
     >
       <SplideSlide>
-        <img src="/images/comics/01/entry.jpg" alt="Image0"/>
-      </SplideSlide>
+        <img src="/images/comics/01/entry.jpg" alt="Image 1"/>
+      </SplideSlide> 
       <SplideSlide>
         <img src="/images/comics/01/01.jpg" alt="Image 1"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="/images/comics/01/02.jpg" alt="Image2"/>
+        <img src="/images/comics/01/02.jpg" alt="Image 1"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="/images/comics/01/03.jpg" alt="Image3"/>
+        <img src="/images/comics/01/03.jpg" alt="Image 1"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="/images/comics/01/04.jpg" alt="Image4"/>
+        <img src="/images/comics/01/04.jpg" alt="Image 1"/>
       </SplideSlide>
+      
+
+    
     </Splide>
                 </div>
                 <div className="right-p">
