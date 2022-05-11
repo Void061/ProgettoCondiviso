@@ -19,7 +19,7 @@ export default function community() {
                <div className="row">
                    <div className="col-md-4">
                    <div className="card-new">
-                       <a href="/documents/whitepaper.pdf">
+                       <a target="_blank" href="/documents/whitepaper.pdf">
                            <img src="/images/document/whitepaper.png" />
                            <div className="title-card">White Paper</div>
                            <div  className="button">DOWNLOAD</div>
@@ -28,7 +28,7 @@ export default function community() {
                    </div>
                    <div className="col-md-4">
                    <div className="card-new">
-                       <a href="/documents/whitepaper.pdf">
+                       <a target="_blank" href="/documents/kyc.png">
                            <img src="/images/document/kyc.png" />
                        <div  className="title-card">KYC</div>
                         <div  className="button">DOWNLOAD</div>
@@ -38,7 +38,7 @@ export default function community() {
                 
                    <div  className="col-md-4">
                        <div  className="card-new">
-                           <a href="/documents/whitepaper.pdf">
+                           <a target="_blank" href="/documents/audit.pdf">
                             <img src="/images/document/audit.png" />
                            <div  className="title-card">Audit</div>
                            <div  className="button">DOWNLOAD</div>

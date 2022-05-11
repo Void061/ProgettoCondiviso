@@ -22,7 +22,9 @@ export default function Home() {
   	  <meta name="description" content="" />
   	  <meta name="keywords" content=""/>
       <title>SpacelonX</title>
+      
      </Head>
+     
       <Stars />
       <Header />
 
