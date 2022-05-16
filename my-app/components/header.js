@@ -145,7 +145,7 @@ window.removeEventListener("scroll", handleScroll);
             </ul>
 
             <div className='d-none d-md-flex'>
-                <Link href="https://bscscan.com/token/0x8C3B58D50886dE1Da74CDd00aFac59dA0d4a2A2a"><button className="btn-1">BSC SCAN</button></Link>
+                <Link href="https://app.unicrypt.network/amm/pancake-v2/ilo/0x7B6DeA15E24165BE35924B8E5A9F20cFcd9344f2"><button className="btn-1">Unicrypt Presale</button></Link>
             </div>
 
 

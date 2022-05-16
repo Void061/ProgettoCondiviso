@@ -47,8 +47,8 @@ export default function footer(){
             </div>
             <div className="col-md-4">  
             <h3>Link</h3>
-            <Link href="privacy-policy" className="text-white">Privacy Policy</Link> - <Link className="text-white" href="terms-and-conditions">Terms and Conditions</Link></div> 
-            <Link  href="https://bscscan.com/token/0x8C3B58D50886dE1Da74CDd00aFac59dA0d4a2A2a" className="text-white d-block d-md-none">BSC Scan</Link>
+            <Link href="privacy-policy" className="text-white">Privacy Policy</Link> - <Link className="text-white" href="terms-and-conditions">Terms and Conditions</Link> 
+            <Link  href="https://bscscan.com/token/0x8C3B58D50886dE1Da74CDd00aFac59dA0d4a2A2a" className="text-white d-block">BSC Scan</Link></div>
             <div className="col-md-4">
             <h3>Follow us!</h3>
                <a href="https://www.instagram.com/spacelonx_"><img src="/images/social/ig.png" alt=""/></a>
