@@ -8,8 +8,12 @@ import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+import QuizIcon from '@mui/icons-material/Quiz';
+import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
+import DiscountIcon from '@mui/icons-material/Discount';
+import InboxIcon from '@mui/icons-material/Inbox';
+import ArticleIcon from '@mui/icons-material/Article';
+import MapIcon from '@mui/icons-material/Map';
 import { Fragment } from 'react';
 import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -70,7 +74,7 @@ window.removeEventListener("scroll", handleScroll);
           <Link className="links-nav" href="#ecosystem">
             <ListItem button >
                 <ListItemIcon>
-                  <HomeIcon sx={{color: 'white'}}/>
+                  <InboxIcon sx={{color: 'white'}}/>
                 </ListItemIcon>
 
                 <ListItemText primary="Ecosystem"/>
@@ -82,7 +86,7 @@ window.removeEventListener("scroll", handleScroll);
              <Link className="links-nav" href="#comics">
             <ListItem button >
                 <ListItemIcon>
-                  <HomeIcon sx={{color: 'white'}}/>
+                  <ArticleIcon sx={{color: 'white'}}/>
                 </ListItemIcon>
 
                 <ListItemText primary="Comics"/>
@@ -94,7 +98,7 @@ window.removeEventListener("scroll", handleScroll);
             <Link className="links-nav" href="#how-to-buy">
             <ListItem button >
                 <ListItemIcon>
-                  <HomeIcon sx={{color: 'white'}}/>
+                  <CurrencyExchangeIcon  sx={{color: 'white'}}/>
                 </ListItemIcon>
 
                 <ListItemText primary="How to buy"/>
@@ -105,7 +109,7 @@ window.removeEventListener("scroll", handleScroll);
             <Link className="links-nav" href="#roadmap">
             <ListItem button >
                 <ListItemIcon>
-                  <HomeIcon sx={{color: 'white'}}/>
+                  <MapIcon sx={{color: 'white'}}/>
                 </ListItemIcon>
 
                 <ListItemText primary="Roadmap"/>
@@ -116,10 +120,21 @@ window.removeEventListener("scroll", handleScroll);
             <Link className="links-nav" href="#faq">
             <ListItem button >
                 <ListItemIcon>
-                  <HomeIcon sx={{color: 'white'}}/>
+                  <QuizIcon sx={{color: 'white'}}/>
                 </ListItemIcon>
 
                 <ListItemText primary="Faq"/>
+                
+            </ListItem>
+            </Link>
+
+            <Link className="links-nav" href="https://app.unicrypt.network/amm/pancake-v2/ilo/0x7B6DeA15E24165BE35924B8E5A9F20cFcd9344f2">
+            <ListItem button >
+                <ListItemIcon>
+                  <DiscountIcon/>
+                </ListItemIcon>
+
+                <ListItemText primary="Unicrypt Presale"/>
                 
             </ListItem>
             </Link>
@@ -137,7 +152,7 @@ window.removeEventListener("scroll", handleScroll);
             </div>
 
             <ul className="nav">
-                <li><a href="#ecosystem">Ecosystem</a></li>
+                <li><a href="#ecosystem">Egit cosystem</a></li>
                 <li><a href="#comics">Comics</a></li>
                 <li><a href="#how-to-buy">How to buy</a></li>
                 <li><a href="#roadmap">Roadmap</a></li>

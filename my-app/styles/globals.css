@@ -51,7 +51,10 @@ a, .MuiLink-root {
   text-decoration: none;
 }
 /*ELEMENTS GENERAL*/
-
+.MuiListItemText-root {
+  color: #fff;
+  text-decoration: none;
+}
 .btn-1 {
   background: transparent;
   font-family: "Lexend";
